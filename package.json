@@ -1,0 +1,39 @@
+{
+  "name": "simple-etl",
+  "version": "1.0.0",
+  "description": "etl ui interface with vue3 vite and antv/x6",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElsaOOo/simple-etl.git"
+  },
+  "keywords": [
+    "etl",
+    "database",
+    "kettle",
+    "vue3",
+    "vite",
+    "typescript",
+    "web"
+  ],
+  "author": "ElsaOOo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElsaOOo/simple-etl/issues"
+  },
+  "homepage": "https://github.com/ElsaOOo/simple-etl#readme",
+  "dependencies": {
+    "vue": "3.2.16",
+    "vue-router": "^3.5.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.4",
+    "typescript": "^4.4.4",
+    "vite": "^2.6.14"
+  }
+}
